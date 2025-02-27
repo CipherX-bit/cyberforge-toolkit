@@ -1,0 +1,4 @@
+# Python Packages
+python-nmap==0.7.1    # Python NMAP integration
+colorama==0.4.6       # Cross-platform colored terminal text
+scapy==2.5.0          # Packet manipulation library
