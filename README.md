@@ -47,7 +47,7 @@ sudo apt update && sudo apt install -y \
     iw \
     python3-pip \
     python3-scapy
-
+'''
 # Clone repository
 git clone https://github.com/CipherX-bit/cyberforge-toolkit.git
 cd cyberforge-toolkit
