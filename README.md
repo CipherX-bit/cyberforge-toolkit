@@ -36,10 +36,12 @@ Professional-grade network security assessment toolkit for ethical hacking and p
 - Python 3.7+
 - Root privileges
 - Wireless card supporting monitor mode (for radio features)
+  
 
-```bash
-# Install system dependencies
-sudo apt update && sudo apt install -y \
+1. Install system dependencies:
+
+    ```bash
+   sudo apt update && sudo apt install -y \
     nmap \
     hostapd \
     dnsmasq \
@@ -47,12 +49,23 @@ sudo apt update && sudo apt install -y \
     iw \
     python3-pip \
     python3-scapy
+    ```
 
-# Clone repository
-git clone https://github.com/CipherX-bit/cyberforge-toolkit.git
-cd cyberforge-toolkit
+2. Clone repository:
 
-# Install Python packages
-pip3 install -r requirements.txt
-# Run Toolkit
-python3 cyberforge.py
+    ```bash
+    git clone https://github.com/CipherX-bit/cyberforge-toolkit.git
+    cd cyberforge-toolkit
+    ```
+
+3. Install Python packages:
+
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+4. Run Toolkit:
+
+    ```bash
+    python3 cyberforge.py
+    ```
